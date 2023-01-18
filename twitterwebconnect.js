@@ -1,7 +1,5 @@
-let myConnector = tableau.makeConnector();
-
 myConnector.getSchema = function (schemaCallback) {
-  // Add code here
+    tableau.log("Hello WDC!");
 };
 
 myConnector.getData = function (table, doneCallback) {
